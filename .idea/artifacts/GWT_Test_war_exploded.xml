@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GWT_Test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GWT_Test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GWT_Test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GWT_Test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/gwt-2.8.0/gwt-servlet.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="GWT_Test/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

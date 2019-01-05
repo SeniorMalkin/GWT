@@ -1,0 +1,38 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'
+             xmlns:date = 'urn:import:com.google.gwt.user.datepicker.client'
+             xmlns:res='urn:with:com.mySampleApplication.client.functionalResources'>
+    <ui:with type="com.mySampleApplication.client.functionalResources" field="res"/>
+    <gwt:HTMLPanel>
+    <div>
+        <gwt:VerticalPanel res:styleName ="{res.style.div}">
+            <gwt:Label text="Add new Book:" res:styleName ="{res.style.head_text}"/>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}">
+                <gwt:Label text="Author:" res:styleName ="{res.style.text}"/>
+                <gwt:TextBox ui:field="author" res:styleName ="{res.style.input}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}">
+                <gwt:Label text="Title:" res:styleName ="{res.style.text}"/>
+                <gwt:TextBox ui:field="title" res:styleName ="{res.style.input}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}">
+                <gwt:Label text="Count pages:" res:styleName ="{res.style.text}"/>
+                <gwt:TextBox ui:field="pages" res:styleName ="{res.style.input}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}">
+                <gwt:Label text="Year of publish:" res:styleName ="{res.style.text}"/>
+                <gwt:TextBox ui:field="year" res:styleName ="{res.style.input}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}">
+                <gwt:Label text="Date:" res:styleName ="{res.style.text}"/>
+                <date:DatePicker ui:field="date"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel res:styleName ="{res.style.hpanel}" >
+                <gwt:Button ui:field="add" text="Add" res:styleName ="{res.style.button}"/>
+                <gwt:Button ui:field="remove" text="Remove" res:styleName ="{res.style.button}"/>
+            </gwt:HorizontalPanel>
+        </gwt:VerticalPanel>
+
+    </div>
+    </gwt:HTMLPanel>
+</ui:UiBinder>

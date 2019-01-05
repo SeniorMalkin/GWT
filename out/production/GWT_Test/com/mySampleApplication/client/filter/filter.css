@@ -1,0 +1,29 @@
+.text{
+    font-family: Harlow Solid Italic, SansSerif;
+    color: #000000;
+    font-size: 16px;
+    text-align: right;
+}
+.head_text{
+    font-family: Harlow Solid Italic, SansSerif;
+    color: #5b5e63;
+    font-size: 18px;
+    text-align: center;
+}
+.div{
+    width: 200px;
+    border: 1px #8a9090;
+    background-color: #7fb3be;
+    margin-left: 5px;
+}
+.button{
+    margin-left: 70px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid #2f809c;
+    color: #000000;
+    background: #5d9dc8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}

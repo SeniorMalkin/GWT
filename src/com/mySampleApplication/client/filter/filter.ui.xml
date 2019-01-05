@@ -1,0 +1,29 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'
+             xmlns:res='urn:with:com.mySampleApplication.client.filterResources'>
+    <ui:with type="com.mySampleApplication.client.filterResources" field="res"/>
+    <gwt:HTMLPanel>
+    <div >
+        <gwt:VerticalPanel ui:field="vPanel" res:styleName ="{res.style.div}">
+            <gwt:Label text="Sort by:" res:styleName = "{res.style.head_text}"/>
+            <gwt:HorizontalPanel>
+                <gwt:CheckBox ui:field="author"/>
+                <gwt:Label text="Author" res:styleName ="{res.style.text}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel>
+                <gwt:CheckBox ui:field="title"/>
+                <gwt:Label text="Title" res:styleName ="{res.style.text}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel>
+                <gwt:CheckBox ui:field="year"/>
+                <gwt:Label text="Year of publish" res:styleName ="{res.style.text}"/>
+            </gwt:HorizontalPanel>
+            <gwt:HorizontalPanel>
+                <gwt:CheckBox ui:field="date"/>
+                <gwt:Label text="Date Added" res:styleName ="{res.style.text}"/>
+            </gwt:HorizontalPanel>
+            <gwt:Button ui:field="buttonSort" text="Sort" res:styleName ="{res.style.button}"/>
+        </gwt:VerticalPanel>
+    </div>
+    </gwt:HTMLPanel>
+</ui:UiBinder>

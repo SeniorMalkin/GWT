@@ -1,0 +1,37 @@
+.head_text{
+    font-family: Harlow Solid Italic, SansSerif;
+    color: #203c7b;
+    font-size: 18px;
+    text-align: center;
+}
+.text{
+    font-family: Harlow Solid Italic, SansSerif;
+    margin-left: 5px;
+    width: 90px;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+}
+.input{
+    margin-left: 5px;
+}
+.div{
+    width: 300px;
+    border: 1px #8a9090;
+    background-color: #7fb3be;
+    margin-left: 5px;
+}
+.hpanel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #2f809c;
+    color: #000000;
+    background: #5d9dc8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
